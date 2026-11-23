@@ -31,36 +31,6 @@
 - **Alliance marks** for oneworld, SkyTeam and Star Alliance.
 - **A JSON and image API**, no key needed: [`/api/airlines/VN`](https://soaringsymbols.org/api/airlines/VN) for an airline's data, [`/api/airlines/VN/icon.png`](https://soaringsymbols.org/api/airlines/VN/icon.png) for a mark as SVG or PNG.
 
-## Repositories
-
-| Repository                                                                  | What it is                                                                                                  |
-| :-------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------- |
-| [soaring-symbols](https://github.com/soaring-symbols/soaring-symbols)       | The collection: SVGs, airline data and the JS API, published on [npm] and served by jsDelivr and unpkg      |
-| [website](https://github.com/soaring-symbols/website)                       | [soaringsymbols.org](https://soaringsymbols.org): browse and download marks, validate SVGs, the API         |
-| [raycast](https://github.com/soaring-symbols/raycast)                       | [Raycast extension](https://www.raycast.com/anhthang/soaring-symbols) to look airlines up and grab marks    |
-| [figma](https://github.com/soaring-symbols/figma)                           | [Figma and FigJam plugin](https://www.figma.com/community/plugin/1701522206126108009) to drop marks in      |
-| [drawio](https://github.com/soaring-symbols/drawio)                         | draw.io (diagrams.net) libraries, searchable by name or code                                                |
-| [brand](https://github.com/soaring-symbols/brand)                           | The project's own mark: two split-flap tiles, like a departure board                                        |
-
-## Quick start
-
-```bash
-npm install soaring-symbols
-```
-
-```js
-import { getAirline, getAssetPath } from 'soaring-symbols'
-
-getAirline('VN') // by IATA or ICAO code, slug or name
-getAssetPath('VN', 'logo') // 'soaring-symbols/airlines/vietnam-airlines/logo.svg'
-```
-
-Or link a mark straight from the CDN, with nothing to install:
-
-```text
-https://cdn.jsdelivr.net/npm/soaring-symbols/dist/airlines/vietnam-airlines/logo.svg
-```
-
 ## Contributing
 
 Missing an airline, or spotted a mark that's out of date? Read the [contribution guidelines](https://github.com/soaring-symbols/soaring-symbols/blob/main/CONTRIBUTING.md), check your SVG on the [validate page](https://soaringsymbols.org/validate), and open a pull request.
@@ -68,5 +38,3 @@ Missing an airline, or spotted a mark that's out of date? Read the [contribution
 ---
 
 <sub>The code and the airline data are MIT licensed. The logos, icons and tail designs belong to their airlines and alliances and are not covered by that license: read the <a href="https://github.com/soaring-symbols/soaring-symbols/blob/main/DISCLAIMER.md">disclaimer</a> before using them.</sub>
-
-[npm]: https://www.npmjs.com/package/soaring-symbols
