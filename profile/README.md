@@ -30,6 +30,7 @@
 - **Airline data**: IATA and ICAO codes, callsign, country, hubs, alliance, founding year and brand color, with renames, mergers and earlier logos kept.
 - **Alliance marks** for oneworld, SkyTeam and Star Alliance.
 - **A JSON and image API**, no key needed: [`/api/airlines/VN`](https://soaringsymbols.org/api/airlines/VN) for an airline's data, [`/api/airlines/VN/icon.png`](https://soaringsymbols.org/api/airlines/VN/icon.png) for a mark as SVG or PNG.
+- **Apps and plugins**: the [Raycast extension](https://www.raycast.com/anhthang/soaring-symbols), the [Framer plugin](https://www.framer.com/marketplace/plugins/soaring-symbols/) and the [draw.io libraries](https://github.com/soaring-symbols/drawio), with a Figma plugin in review; the [ecosystem page](https://soaringsymbols.org/ecosystem) lists them all.
 
 ## Contributing
 
